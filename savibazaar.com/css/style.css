@@ -287,7 +287,9 @@ h6,
   padding-top: 3rem;
   /* padding-bottom: 13rem; */
 }
-
+.imgwidth {
+  width: 80% !important;
+}
 .section-title span:last-child::after {
   right: auto;
   left: -20px;
