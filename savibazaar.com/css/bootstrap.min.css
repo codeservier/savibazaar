@@ -6593,6 +6593,27 @@ fieldset:disabled .btn {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
 }
+.mainhedingStyle {
+  text-align: justify;
+  font-weight: 100;
+  font-size: 20px;
+  font-family: none;
+  color: #de3520;
+}
+.text-style-heding {
+  font-weight: 600;
+  text-decoration: underline;
+  text-align: center;
+  padding-bottom: 3rem;
+  color: #030363;
+}
+.text-style-heding2 {
+  font-weight: 600;
+  text-decoration: underline;
+  /* text-align: center; */
+  /* padding-bottom: 3rem; */
+  color: #030363;
+}
 .px-5 {
   padding-right: 3rem;
   padding-left: 3rem;
@@ -6620,6 +6641,10 @@ fieldset:disabled .btn {
 .py-5 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+.py-55 {
+  /* padding-top: 3rem; */
+  /* padding-bottom: 3rem; */
 }
 .pt-0 {
   padding-top: 0;

@@ -214,9 +214,27 @@ h6,
   }
 }
 
-/*** Hero Header ***/
-.hero-header {
+.image-container {
+  text-align: center; /* Center the text below the image */
+  margin-top: 10px; /* Adjust the top margin to create space between image and text */
+}
 
+.image-container img {
+  display: block; /* Ensure the image is displayed as a block element */
+  margin: 0 auto; /* Center the image horizontally within the container */
+}
+/*** Hero Header ***/
+.hero-header12345 {
+  margin-bottom: 6rem;
+  padding: 5rem 0;
+  background: url(../img/blob-top-left.png), url(../img/blob-top-right.png),
+    url(../img/blob-bottom-left.png), url(../img/blob-bottom-right.png),
+    url(../img/blob-center.png), url(../img/bg-bottom.png);
+  background-position: left 0px top 0px, right 0px top 0px, left 0px bottom 0px,
+    right 0px bottom 0px, center center, center bottom;
+  background-repeat: no-repeat;
+}
+.hero-header {
   margin-bottom: 6rem;
   padding: 18rem 0;
   background: url(../img/blob-top-left.png), url(../img/blob-top-right.png),
@@ -264,6 +282,10 @@ h6,
   height: 2px;
   top: 0;
   right: -20px;
+}
+.py-56 {
+  padding-top: 3rem;
+  /* padding-bottom: 13rem; */
 }
 
 .section-title span:last-child::after {
