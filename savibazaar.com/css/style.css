@@ -283,6 +283,10 @@ h6,
   top: 0;
   right: -20px;
 }
+.img-fluid22 {
+  max-width: 100%;
+  height: 300px;
+}
 .py-56 {
   padding-top: 3rem;
   /* padding-bottom: 13rem; */
